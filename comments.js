@@ -1,4 +1,4 @@
-// create web server
+// Create web server
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
@@ -29,4 +29,4 @@ app.post('/comments', (req, res) => {
 
 app.listen(port, () => {
 	console.log(`Server running on port ${port}`);
-});git add comments.js
+});
